@@ -1,5 +1,6 @@
 
 package ai.vyro;
+import ai.vyro.NewFile;
 
 class FreshJuice{
     enum FreshJuiceSize {SMALL, MEDIUM, LARGE}
@@ -29,5 +30,7 @@ public class Main {
         Greet greet = new GreetName();
         greet.greet();
         System.out.println(greet.greet("Akbar"));
+        NewFile newfile = new NewFile();
+        newfile.print();
     }
 }
